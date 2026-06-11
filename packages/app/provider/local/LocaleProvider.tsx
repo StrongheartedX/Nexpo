@@ -3,7 +3,7 @@
 import { setupI18n } from '@lingui/core'
 import { I18nProvider, type TransRenderProps } from '@lingui/react'
 import { useParams, usePathname, useRouter } from 'next/navigation'
-import type { FC, ReactNode } from 'react'
+import type { FC, ReactElement, ReactNode } from 'react'
 import { createContext, useContext, useEffect, useMemo, useState } from 'react'
 import { DEFAULT_LOCALE, isSupportedLocale } from '../../config/locales.js'
 
@@ -96,7 +96,7 @@ function getLinguiLocale(languageCode: string | null): string {
   return isSupportedLocale(languageCode) ? languageCode : DEFAULT_LOCALE
 }
 
-function DefaultComponent({ children }: TransRenderProps): JSX.Element {
+function DefaultComponent({ children }: TransRenderProps): ReactElement {
   return <>{children}</>
 }
 
@@ -130,7 +130,13 @@ export const LocaleProvider: FC<{
     let messages = {}
 
     try {
-      messages = require(`../../locales/${linguiLocale}/messages`).messages || {}
+      if (linguiLocale === 'cs') {
+        messages = require('../../locales/cs/messages.js').messages || {}
+      } else if (linguiLocale === 'fr') {
+        messages = require('../../locales/fr/messages.js').messages || {}
+      } else {
+        messages = require('../../locales/en/messages.js').messages || {}
+      }
     } catch {
       console.warn(
         `Messages for locale "${linguiLocale}" not found. Run 'yarn lingui:compile' to compile messages.`

@@ -48,14 +48,16 @@ export function AuthTestButton() {
 
   return (
     <YStack
-      padding={16}
-      gap={12}
-      maxWidth={400}
-      width="100%"
-      alignSelf="center"
-      alignItems="center"
+      style={{
+        padding: 16,
+        gap: 12,
+        maxWidth: 400,
+        width: '100%',
+        alignSelf: 'center',
+        alignItems: 'center',
+      }}
     >
-      <YStack gap={8} alignItems="center" width="100%">
+      <YStack style={{ gap: 8, alignItems: 'center', width: '100%' }}>
         <Text style={{ fontSize: 16, fontWeight: 'bold', textAlign: 'center', width: '100%' }}>
           <Trans>Test Protected tRPC Procedure</Trans>
         </Text>
@@ -63,7 +65,7 @@ export function AuthTestButton() {
           <Trans>Current Status: {user ? 'Authenticated' : 'Not Authenticated'}</Trans>
         </Text>
       </YStack>
-      <YStack alignItems="center" gap={8} width="100%">
+      <YStack style={{ alignItems: 'center', gap: 8, width: '100%' }}>
         <Button
           onPress={handleTestAuth}
           disabled={isTesting}

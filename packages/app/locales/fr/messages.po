@@ -13,14 +13,14 @@ msgstr ""
 "Language-Team: \n"
 "Plural-Forms: \n"
 
-#: features/home/auth-test-button.tsx:65
-#: features/home/login-test.tsx:152
+#: features/home/auth-test-button.tsx:79
+#: features/home/login-test.tsx:173
+#. placeholder {0}: getButtonLabel()
 #. placeholder {0}: isSigningIn ? 'Signing In...' : 'Sign In'
-#. placeholder {0}: isTesting ? 'Testing...' : user ? 'Test Auth (Authenticated)' : 'Test Auth (Not Authenticated)'
 msgid "{0}"
 msgstr "{0}"
 
-#: features/home/screen.tsx:81
+#: features/home/screen.tsx:95
 msgid ""
 "A production-ready monorepo template for building cross-platform "
 "applications with Next.js and React Native (Expo)"
@@ -28,13 +28,13 @@ msgstr ""
 "Un modèle de monorepo prêt pour la production pour créer des applications "
 "multiplateformes avec Next.js et React Native (Expo)"
 
-#: features/home/screen.tsx:204
+#: features/home/screen.tsx:177
 msgid "Check the README.md for setup instructions and documentation"
 msgstr ""
 "Consultez le README.md pour les instructions d'installation et la "
 "documentation."
 
-#: features/home/auth-test-button.tsx:75
+#: features/home/auth-test-button.tsx:91
 msgid ""
 "Click to test the protected tRPC procedure. This will work whether you're "
 "authenticated or not, but will show different results."
@@ -42,81 +42,81 @@ msgstr ""
 "Cliquez pour tester la procédure tRPC protégée. Cela fonctionnera que vous "
 "soyez authentifié ou non, mais affichera des résultats différents."
 
-#: features/home/screen.tsx:69
+#: features/home/screen.tsx:87
 msgid "Cross-platform monorepo template"
 msgstr "Modèle de monorepo multiplateforme"
 
-#: features/home/locale-demo.tsx:42
+#: features/home/locale-demo.tsx:59
 msgid "Current Locale"
 msgstr "Locale actuel"
 
-#: features/home/auth-test-button.tsx:56
+#: features/home/auth-test-button.tsx:65
 #. placeholder {0}: user ? 'Authenticated' : 'Not Authenticated'
 msgid "Current Status: {0}"
 msgstr "Statut actuel : {0}"
 
-#: features/home/screen.tsx:154
+#: features/home/screen.tsx:140
 msgid "Demo Features"
 msgstr "Fonctionnalités de démonstration"
 
-#: features/home/login-test.tsx:107
+#: features/home/login-test.tsx:131
 msgid "Email"
 msgstr "E-mail"
 
-#: features/home/login-test.tsx:75
+#: features/home/login-test.tsx:92
 #. placeholder {0}: user.email
 msgid "Email: {0}"
 msgstr "Email : {0}"
 
-#: features/home/locale-demo.tsx:128
+#: features/home/locale-demo.tsx:153
 msgid "Example Translated Text"
 msgstr "Texte traduit exemple"
 
-#: features/home/screen.tsx:181
+#: features/home/screen.tsx:161
 msgid "Internationalization (i18n)"
 msgstr "Internationalisation (i18n)"
 
-#: features/home/locale-demo.tsx:29
+#: features/home/locale-demo.tsx:41
 msgid "Internationalization (i18n) Demo"
 msgstr "Démonstration d'internationalisation (i18n)"
 
-#: features/home/locale-demo.tsx:47
+#: features/home/locale-demo.tsx:63
 msgid "Language"
 msgstr "Langue"
 
-#: features/home/locale-demo.tsx:66
+#: features/home/locale-demo.tsx:74
 msgid "Language Code"
 msgstr "Code de langue"
 
-#: features/home/locale-demo.tsx:58
+#: features/home/locale-demo.tsx:73
 msgid "Language Tag"
 msgstr "Étiquette de langue"
 
-#: features/home/login-test.tsx:129
+#: features/home/login-test.tsx:149
 msgid "Password"
 msgstr "Mot de passe"
 
-#: features/home/login-test.tsx:85
+#: features/home/login-test.tsx:109
 msgid "Sign Out"
 msgstr "Déconnexion"
 
-#: features/home/login-test.tsx:72
+#: features/home/login-test.tsx:89
 msgid "Signed In"
 msgstr "Connecté"
 
-#: features/home/login-test.tsx:101
+#: features/home/login-test.tsx:125
 msgid "Supabase Auth Test"
 msgstr "Test Auth Supabase"
 
-#: features/home/locale-demo.tsx:87
+#: features/home/locale-demo.tsx:85
 msgid "Switch Language"
 msgstr "Changer de langue"
 
-#: features/home/auth-test-button.tsx:53
+#: features/home/auth-test-button.tsx:62
 msgid "Test Protected tRPC Procedure"
 msgstr "Tester la procédure tRPC protégée."
 
-#: features/home/screen.tsx:184
+#: features/home/screen.tsx:164
 msgid ""
 "Test the useLocale hook to switch languages and see how translations work "
 "in real-time"
@@ -124,11 +124,11 @@ msgstr ""
 "Testez le hook useLocale pour changer de langue et voir comment les "
 "traductions fonctionnent en temps réel."
 
-#: features/home/locale-demo.tsx:74
+#: features/home/locale-demo.tsx:76
 msgid "Text Direction"
 msgstr "Direction du texte"
 
-#: features/home/locale-demo.tsx:131
+#: features/home/locale-demo.tsx:156
 msgid ""
 "This text changes based on the selected locale. The useLocale hook provides "
 "access to locale information and works seamlessly with Lingui for "
@@ -138,7 +138,7 @@ msgstr ""
 "fournit l'accès aux informations de locale et fonctionne parfaitement avec "
 "Lingui pour les traductions."
 
-#: features/home/screen.tsx:157
+#: features/home/screen.tsx:143
 msgid ""
 "Try out authentication and protected API endpoints to see the template in "
 "action"
@@ -146,11 +146,11 @@ msgstr ""
 "Essayez l'authentification et les points de terminaison API protégés pour "
 "voir le modèle en action."
 
-#: features/home/locale-demo.tsx:143
+#: features/home/locale-demo.tsx:173
 msgid "Usage Example"
 msgstr "Exemple d'utilisation"
 
-#: features/home/locale-demo.tsx:32
+#: features/home/locale-demo.tsx:44
 msgid ""
 "Use the useLocale hook to access locale information and switch languages "
 "dynamically"
@@ -158,11 +158,11 @@ msgstr ""
 "Utilisez le hook useLocale pour accéder aux informations de locale et "
 "changer de langue dynamiquement."
 
-#: features/home/login-test.tsx:79
+#: features/home/login-test.tsx:103
 #. placeholder {0}: user.id.slice(0, 8)
 msgid "User ID: {0}..."
 msgstr "ID utilisateur : {0}..."
 
-#: features/home/screen.tsx:97
+#: features/home/screen.tsx:106
 msgid "What's Included"
 msgstr "Ce qui est inclus"

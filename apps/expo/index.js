@@ -1,3 +1,9 @@
+import 'react-native-gesture-handler'
+import { LogBox } from 'react-native'
+
+// Harmless RN Animated bridge noise (react-navigation / screens on Fabric)
+LogBox.ignoreLogs(['Sending `onAnimatedValueUpdate` with no listeners registered.'])
+
 // Polyfill Intl APIs for React Native
 import '@formatjs/intl-locale/polyfill-force'
 import '@formatjs/intl-pluralrules/polyfill-force'

@@ -35,13 +35,7 @@ export function LocaleDemo() {
   const currentLocaleInfo = SUPPORTED_LOCALES.find((l) => l.code === locale.languageCode)
 
   return (
-    <YStack
-      style={{
-        padding: 16,
-        gap: 16,
-        width: '100%',
-      }}
-    >
+    <YStack style={{ padding: 16, gap: 16, width: '100%' }}>
       <YStack style={{ gap: 12, alignItems: 'center' }}>
         <Text style={{ fontSize: 18, fontWeight: 'bold', textAlign: 'center' }}>
           <Trans>Internationalization (i18n) Demo</Trans>
@@ -53,7 +47,13 @@ export function LocaleDemo() {
         </Text>
       </YStack>
 
-      <Card elevate size="$3" bordered style={{ padding: 16 }}>
+      <Card
+        elevation={1}
+        size="$3"
+        borderWidth={1}
+        borderColor="$borderColor"
+        style={{ padding: 16 }}
+      >
         <YStack style={{ gap: 12 }}>
           <Text style={{ fontSize: 16, fontWeight: '600' }} testID="current-locale-title">
             <Trans>Current Locale</Trans>
@@ -96,9 +96,10 @@ export function LocaleDemo() {
             return (
               <Card
                 key={loc.code}
-                elevate
+                elevation={1}
                 size="$3"
-                bordered
+                borderWidth={1}
+                borderColor="$borderColor"
                 onPress={() => setLocale(loc.code)}
                 backgroundColor={isActive ? '$blue10' : undefined}
                 testID={`locale-${loc.code}-card`}
@@ -136,7 +137,13 @@ export function LocaleDemo() {
         </XStack>
       </YStack>
 
-      <Card elevate size="$3" bordered style={{ padding: 16, backgroundColor: '$blue2' }}>
+      <Card
+        elevation={1}
+        size="$3"
+        borderWidth={1}
+        borderColor="$borderColor"
+        style={{ padding: 16, backgroundColor: '$blue2' }}
+      >
         <YStack style={{ gap: 8 }}>
           <Text
             style={{ fontSize: 14, fontWeight: '600', opacity: 0.8 }}
@@ -154,7 +161,13 @@ export function LocaleDemo() {
         </YStack>
       </Card>
 
-      <Card elevate size="$3" bordered style={{ padding: 16, backgroundColor: '$gray2' }}>
+      <Card
+        elevation={1}
+        size="$3"
+        borderWidth={1}
+        borderColor="$borderColor"
+        style={{ padding: 16, backgroundColor: '$gray2' }}
+      >
         <YStack style={{ gap: 8 }}>
           <Text style={{ fontSize: 14, fontWeight: '600' }} color="$color">
             <Trans>Usage Example</Trans>:

@@ -12,4 +12,4 @@ appId: com.nexpo.app
 # Note: Navigation to user-detail requires implementation in the app
 # If there's a way to navigate to user-detail from home, add those steps here
 # For now, we'll test what's available on the home screen
-- assertVisible: "Home"
+- assertVisible: "Cross-platform monorepo template"

@@ -73,7 +73,7 @@ describe('ExampleButton', () => {
     )
 
     const button = screen.getByRole('button')
-    expect(button).toBeDisabled()
+    expect(button).toHaveAttribute('aria-disabled', 'true')
   })
 
   it('should accept and apply custom props', () => {

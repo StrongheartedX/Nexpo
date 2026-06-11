@@ -8,9 +8,7 @@ export default function TamaguiProviderComponent({ children }: { children: React
 
   return (
     <TamaguiProvider config={config} defaultTheme={resolvedTheme}>
-      <Theme name={resolvedTheme} key={resolvedTheme}>
-        {children}
-      </Theme>
+      <Theme name={resolvedTheme}>{children}</Theme>
     </TamaguiProvider>
   )
 }

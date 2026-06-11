@@ -1,7 +1,7 @@
 import { setupI18n } from '@lingui/core'
 import { I18nProvider, type TransRenderProps } from '@lingui/react'
 import * as Localization from 'expo-localization'
-import type { ReactNode } from 'react'
+import type { ReactElement, ReactNode } from 'react'
 import { createContext, useContext, useMemo, useState } from 'react'
 import { Text } from 'react-native'
 import { DEFAULT_LOCALE, isSupportedLocale } from '../../config/locales.js'
@@ -67,7 +67,7 @@ function getLinguiLocale(languageCode: string | null): string {
 }
 
 // Trans macro default component — uses Text for React Native
-function DefaultComponent({ children }: TransRenderProps): JSX.Element {
+function DefaultComponent({ children }: TransRenderProps): ReactElement {
   return <Text>{children}</Text>
 }
 
@@ -75,7 +75,7 @@ type LocaleProviderProps = {
   children: ReactNode
 }
 
-export function LocaleProvider({ children }: LocaleProviderProps): JSX.Element {
+export function LocaleProvider({ children }: LocaleProviderProps): ReactElement {
   const [locale, setLocaleState] = useState<LocaleInfo>(getInitialLocale)
   const linguiLocale = getLinguiLocale(locale.languageCode)
 
@@ -85,11 +85,11 @@ export function LocaleProvider({ children }: LocaleProviderProps): JSX.Element {
 
     try {
       if (linguiLocale === 'cs') {
-        messages = require('../../locales/cs/messages').messages || {}
+        messages = require('../../locales/cs/messages.js').messages || {}
       } else if (linguiLocale === 'fr') {
-        messages = require('../../locales/fr/messages').messages || {}
+        messages = require('../../locales/fr/messages.js').messages || {}
       } else {
-        messages = require('../../locales/en/messages').messages || {}
+        messages = require('../../locales/en/messages.js').messages || {}
       }
     } catch {
       console.warn(

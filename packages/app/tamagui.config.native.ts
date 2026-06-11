@@ -1,13 +1,10 @@
-import { createAnimations } from '@tamagui/animations-motion'
 import { defaultConfig } from '@tamagui/config/v5'
-import { animationsMotion } from '@tamagui/config/v5-motion'
+import { animationsReanimated } from '@tamagui/config/v5-reanimated'
 import { createTamagui } from 'tamagui'
 
 export const config = createTamagui({
   ...defaultConfig,
-  animations: createAnimations({
-    ...animationsMotion.animations,
-  }),
+  animations: animationsReanimated,
   media: {
     ...defaultConfig.media,
   },

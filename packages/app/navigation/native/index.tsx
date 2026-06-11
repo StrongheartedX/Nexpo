@@ -22,6 +22,7 @@ export function NativeNavigation() {
 
   return (
     <Stack.Navigator
+      initialRouteName="home"
       screenOptions={{
         headerStyle: {
           backgroundColor,
@@ -36,7 +37,7 @@ export function NativeNavigation() {
         name="home"
         component={HomeScreen}
         options={{
-          title: 'Home',
+          headerShown: false,
         }}
       />
       <Stack.Screen

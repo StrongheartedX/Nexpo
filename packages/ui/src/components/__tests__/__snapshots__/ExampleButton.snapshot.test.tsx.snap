@@ -2,26 +2,25 @@
 
 exports[`ExampleButton Snapshots > should match snapshot when disabled 1`] = `
 <span
-  class=""
-  style="display: contents;"
+  class="t_light _dsp_contents"
 >
   <span
-    class=" "
-    style="display: contents;"
+    class=" t_light is_Theme"
+    style="color: var(--color); display: contents;"
   >
     <span
-      class=" t_light is_Theme"
-      style="color: var(--color); display: contents;"
+      class="_dsp_contents  "
     >
       <button
         aria-disabled="true"
-        class="is_Button _outlineStyle-0focus-visible-solid _outlineWidth-0focus-visible-2px _btc-0focus-visible-background _brc-0focus-visible-background _borderBottomColor-0focus-visible-background _borderLeftColor-0focus-visible-background _dsp-flex _alignItems-center _fb-auto _bxs-border-box _pos-relative _minHeight-0px _minWidth-0px _flexShrink-0 _fd-row _justifyContent-center _fwr-nowrap _cur-pointer _backgroundColor-red _btw-1px _brw-1px _borderBottomWidth-1px _borderLeftWidth-1px _btc-transparent _brc-transparent _borderBottomColor-transparent _borderLeftColor-transparent _borderBottomStyle-solid _borderTopStyle-solid _borderLeftStyle-solid _borderRightStyle-solid _pe-none"
+        class="is_Button is_View _cur-_platformweb_pointer _outlineStyle-0focus-visible-solid _outlineWidth-0focus-visible-2px _justifyContent-center _alignItems-center _fwr-nowrap _fd-row _backgroundColor-red _btw-1px _brw-1px _borderBottomWidth-1px _borderLeftWidth-1px _btc-transparent _brc-transparent _borderBottomColor-transparent _borderLeftColor-transparent _bbs-solid _bts-solid _bls-solid _brs-solid _pe-none"
         data-disable-theme="true"
-        disabled=""
         role="button"
+        tabindex="0"
+        type="button"
       >
         <span
-          class="is_Button font_body _dsp-inline _bxs-border-box _ww-break-word _ws-nowrap _marginTop-0px _marginRight-0px _marginBottom-0px _marginLeft-0px _col-color _userSelect-none _cur-pointer _flexGrow-0 _flexShrink-1 _maxWidth-10037 _ox-hidden _oy-hidden _textOverflow-ellipsis"
+          class="is_SizableText is_Text _cur-_platformweb_pointer _col-color _userSelect-none _flexGrow-0 _flexShrink-1 _maxWidth-10037 _ox-hidden _oy-hidden _textOverflow-ellipsis _ws-nowrap"
         >
           Disabled Button
         </span>
@@ -36,25 +35,24 @@ exports[`ExampleButton Snapshots > should match snapshot when disabled 1`] = `
 
 exports[`ExampleButton Snapshots > should match snapshot with custom size 1`] = `
 <span
-  class=""
-  style="display: contents;"
+  class="t_light _dsp_contents"
 >
   <span
-    class=" "
-    style="display: contents;"
+    class=" t_light is_Theme"
+    style="color: var(--color); display: contents;"
   >
     <span
-      class=" t_light is_Theme"
-      style="color: var(--color); display: contents;"
+      class="_dsp_contents  "
     >
       <button
-        class="is_Button _outlineStyle-0focus-visible-solid _outlineWidth-0focus-visible-2px _dsp-flex _alignItems-center _fb-auto _bxs-border-box _pos-relative _minHeight-0px _minWidth-0px _flexShrink-0 _fd-row _justifyContent-center _fwr-nowrap _cur-pointer _backgroundColor-red _btw-1px _brw-1px _borderBottomWidth-1px _borderLeftWidth-1px _btc-transparent _brc-transparent _borderBottomColor-transparent _borderLeftColor-transparent _borderBottomStyle-solid _borderTopStyle-solid _borderLeftStyle-solid _borderRightStyle-solid"
+        class="is_Button is_View _cur-_platformweb_pointer _outlineStyle-0focus-visible-solid _outlineWidth-0focus-visible-2px _justifyContent-center _alignItems-center _fwr-nowrap _fd-row _backgroundColor-red _btw-1px _brw-1px _borderBottomWidth-1px _borderLeftWidth-1px _btc-transparent _brc-transparent _borderBottomColor-transparent _borderLeftColor-transparent _bbs-solid _bts-solid _bls-solid _brs-solid"
         data-disable-theme="true"
         role="button"
         tabindex="0"
+        type="button"
       >
         <span
-          class="is_Button font_body _dsp-inline _bxs-border-box _ww-break-word _ws-nowrap _marginTop-0px _marginRight-0px _marginBottom-0px _marginLeft-0px _col-color _userSelect-none _cur-pointer _flexGrow-0 _flexShrink-1 _maxWidth-10037 _ox-hidden _oy-hidden _textOverflow-ellipsis"
+          class="is_SizableText is_Text _cur-_platformweb_pointer _col-color _userSelect-none _flexGrow-0 _flexShrink-1 _maxWidth-10037 _ox-hidden _oy-hidden _textOverflow-ellipsis _ws-nowrap"
         >
           Large Button
         </span>
@@ -69,25 +67,24 @@ exports[`ExampleButton Snapshots > should match snapshot with custom size 1`] = 
 
 exports[`ExampleButton Snapshots > should match snapshot with custom width and height 1`] = `
 <span
-  class=""
-  style="display: contents;"
+  class="t_light _dsp_contents"
 >
   <span
-    class=" "
-    style="display: contents;"
+    class=" t_light is_Theme"
+    style="color: var(--color); display: contents;"
   >
     <span
-      class=" t_light is_Theme"
-      style="color: var(--color); display: contents;"
+      class="_dsp_contents  "
     >
       <button
-        class="is_Button _outlineStyle-0focus-visible-solid _outlineWidth-0focus-visible-2px _dsp-flex _alignItems-center _fb-auto _bxs-border-box _pos-relative _minHeight-0px _minWidth-0px _flexShrink-0 _fd-row _justifyContent-center _fwr-nowrap _cur-pointer _backgroundColor-red _btw-1px _brw-1px _borderBottomWidth-1px _borderLeftWidth-1px _btc-transparent _brc-transparent _borderBottomColor-transparent _borderLeftColor-transparent _borderBottomStyle-solid _borderTopStyle-solid _borderLeftStyle-solid _borderRightStyle-solid _width-300px _height-60px"
+        class="is_Button is_View _cur-_platformweb_pointer _outlineStyle-0focus-visible-solid _outlineWidth-0focus-visible-2px _justifyContent-center _alignItems-center _fwr-nowrap _fd-row _backgroundColor-red _btw-1px _brw-1px _borderBottomWidth-1px _borderLeftWidth-1px _btc-transparent _brc-transparent _borderBottomColor-transparent _borderLeftColor-transparent _bbs-solid _bts-solid _bls-solid _brs-solid _width-300px _height-60px"
         data-disable-theme="true"
         role="button"
         tabindex="0"
+        type="button"
       >
         <span
-          class="is_Button font_body _dsp-inline _bxs-border-box _ww-break-word _ws-nowrap _marginTop-0px _marginRight-0px _marginBottom-0px _marginLeft-0px _col-color _userSelect-none _cur-pointer _flexGrow-0 _flexShrink-1 _maxWidth-10037 _ox-hidden _oy-hidden _textOverflow-ellipsis"
+          class="is_SizableText is_Text _cur-_platformweb_pointer _col-color _userSelect-none _flexGrow-0 _flexShrink-1 _maxWidth-10037 _ox-hidden _oy-hidden _textOverflow-ellipsis _ws-nowrap"
         >
           Custom Size Button
         </span>
@@ -102,25 +99,24 @@ exports[`ExampleButton Snapshots > should match snapshot with custom width and h
 
 exports[`ExampleButton Snapshots > should match snapshot with default props 1`] = `
 <span
-  class=""
-  style="display: contents;"
+  class="t_light _dsp_contents"
 >
   <span
-    class=" "
-    style="display: contents;"
+    class=" t_light is_Theme"
+    style="color: var(--color); display: contents;"
   >
     <span
-      class=" t_light is_Theme"
-      style="color: var(--color); display: contents;"
+      class="_dsp_contents  "
     >
       <button
-        class="is_Button _outlineStyle-0focus-visible-solid _outlineWidth-0focus-visible-2px _dsp-flex _alignItems-center _fb-auto _bxs-border-box _pos-relative _minHeight-0px _minWidth-0px _flexShrink-0 _fd-row _justifyContent-center _fwr-nowrap _cur-pointer _backgroundColor-red _btw-1px _brw-1px _borderBottomWidth-1px _borderLeftWidth-1px _btc-transparent _brc-transparent _borderBottomColor-transparent _borderLeftColor-transparent _borderBottomStyle-solid _borderTopStyle-solid _borderLeftStyle-solid _borderRightStyle-solid"
+        class="is_Button is_View _cur-_platformweb_pointer _outlineStyle-0focus-visible-solid _outlineWidth-0focus-visible-2px _justifyContent-center _alignItems-center _fwr-nowrap _fd-row _backgroundColor-red _btw-1px _brw-1px _borderBottomWidth-1px _borderLeftWidth-1px _btc-transparent _brc-transparent _borderBottomColor-transparent _borderLeftColor-transparent _bbs-solid _bts-solid _bls-solid _brs-solid"
         data-disable-theme="true"
         role="button"
         tabindex="0"
+        type="button"
       >
         <span
-          class="is_Button font_body _dsp-inline _bxs-border-box _ww-break-word _ws-nowrap _marginTop-0px _marginRight-0px _marginBottom-0px _marginLeft-0px _col-color _userSelect-none _cur-pointer _flexGrow-0 _flexShrink-1 _maxWidth-10037 _ox-hidden _oy-hidden _textOverflow-ellipsis"
+          class="is_SizableText is_Text _cur-_platformweb_pointer _col-color _userSelect-none _flexGrow-0 _flexShrink-1 _maxWidth-10037 _ox-hidden _oy-hidden _textOverflow-ellipsis _ws-nowrap"
         >
           Default Button
         </span>
@@ -135,25 +131,24 @@ exports[`ExampleButton Snapshots > should match snapshot with default props 1`] 
 
 exports[`ExampleButton Snapshots > should match snapshot with long text 1`] = `
 <span
-  class=""
-  style="display: contents;"
+  class="t_light _dsp_contents"
 >
   <span
-    class=" "
-    style="display: contents;"
+    class=" t_light is_Theme"
+    style="color: var(--color); display: contents;"
   >
     <span
-      class=" t_light is_Theme"
-      style="color: var(--color); display: contents;"
+      class="_dsp_contents  "
     >
       <button
-        class="is_Button _outlineStyle-0focus-visible-solid _outlineWidth-0focus-visible-2px _dsp-flex _alignItems-center _fb-auto _bxs-border-box _pos-relative _minHeight-0px _minWidth-0px _flexShrink-0 _fd-row _justifyContent-center _fwr-nowrap _cur-pointer _backgroundColor-red _btw-1px _brw-1px _borderBottomWidth-1px _borderLeftWidth-1px _btc-transparent _brc-transparent _borderBottomColor-transparent _borderLeftColor-transparent _borderBottomStyle-solid _borderTopStyle-solid _borderLeftStyle-solid _borderRightStyle-solid"
+        class="is_Button is_View _cur-_platformweb_pointer _outlineStyle-0focus-visible-solid _outlineWidth-0focus-visible-2px _justifyContent-center _alignItems-center _fwr-nowrap _fd-row _backgroundColor-red _btw-1px _brw-1px _borderBottomWidth-1px _borderLeftWidth-1px _btc-transparent _brc-transparent _borderBottomColor-transparent _borderLeftColor-transparent _bbs-solid _bts-solid _bls-solid _brs-solid"
         data-disable-theme="true"
         role="button"
         tabindex="0"
+        type="button"
       >
         <span
-          class="is_Button font_body _dsp-inline _bxs-border-box _ww-break-word _ws-nowrap _marginTop-0px _marginRight-0px _marginBottom-0px _marginLeft-0px _col-color _userSelect-none _cur-pointer _flexGrow-0 _flexShrink-1 _maxWidth-10037 _ox-hidden _oy-hidden _textOverflow-ellipsis"
+          class="is_SizableText is_Text _cur-_platformweb_pointer _col-color _userSelect-none _flexGrow-0 _flexShrink-1 _maxWidth-10037 _ox-hidden _oy-hidden _textOverflow-ellipsis _ws-nowrap"
         >
           This is a button with a very long text that might wrap to multiple lines
         </span>
