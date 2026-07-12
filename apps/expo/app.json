@@ -5,15 +5,25 @@
     "version": "1.0.0",
     "scheme": "nexpo",
     "platforms": ["ios", "android"],
-    "splash": {
-      "image": "./assets/logo.png",
-      "backgroundColor": "#ffffff",
-      "resizeMode": "contain"
-    },
     "ios": {
       "bundleIdentifier": "com.nexpo.app"
     },
-    "newArchEnabled": true,
-    "plugins": ["expo-localization", "@sentry/react-native"]
+    "plugins": [
+      "expo-localization",
+      "@sentry/react-native",
+      "expo-image",
+      [
+        "expo-splash-screen",
+        {
+          "image": "./assets/logo.png",
+          "backgroundColor": "#ffffff",
+          "resizeMode": "contain"
+        }
+      ],
+      "expo-status-bar"
+    ],
+    "android": {
+      "package": "com.nexpo.app"
+    }
   }
 }

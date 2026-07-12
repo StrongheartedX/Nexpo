@@ -5,11 +5,6 @@
     "version": "1.0.0",
     "orientation": "portrait",
     "userInterfaceStyle": "system",
-    "splash": {
-      "image": "./assets/logo.png",
-      "backgroundColor": "#ffffff",
-      "resizeMode": "contain"
-    },
     "assetBundlePatterns": ["**/*"],
     "ios": {
       "supportsTablet": true,
@@ -17,6 +12,17 @@
     },
     "android": {
       "package": "com.nexpo.storybook"
-    }
+    },
+    "plugins": [
+      [
+        "expo-splash-screen",
+        {
+          "image": "./assets/logo.png",
+          "backgroundColor": "#ffffff",
+          "resizeMode": "contain"
+        }
+      ],
+      "expo-status-bar"
+    ]
   }
 }

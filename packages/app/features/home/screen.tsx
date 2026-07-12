@@ -10,7 +10,7 @@ import { LoginTest } from './login-test'
 
 const TECHNOLOGIES = [
   { name: 'Next.js 16', icon: '⚡' },
-  { name: 'Expo SDK 56', icon: '📱' },
+  { name: 'Expo SDK 57', icon: '📱' },
   { name: 'React 19', icon: '⚛️' },
   { name: 'tRPC', icon: '🔌' },
   { name: 'Supabase', icon: '🗄️' },

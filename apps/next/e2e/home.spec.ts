@@ -86,7 +86,7 @@ test.describe('Home Page', () => {
       await page.goto(`/${locale}`)
 
       // Check for some key technology cards
-      const technologies = ['Next.js 16', 'Expo SDK 54', 'React 19', 'tRPC', 'Supabase']
+      const technologies = ['Next.js 16', 'Expo SDK 57', 'React 19', 'tRPC', 'Supabase']
 
       for (const tech of technologies) {
         await expect(page.getByText(tech, { exact: true })).toBeVisible()
